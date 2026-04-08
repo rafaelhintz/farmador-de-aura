@@ -22,7 +22,7 @@ body {
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 20px rgba(212, 175, 55, 0.2);
     transition: transform 0.4s ease, box-shadow 0.4s ease;
     backdrop-filter: blur(10px);
-
+}
     
     .card:hover {
     transform: translateY(-10px) rotateX(5deg);
@@ -43,4 +43,28 @@ h1 {
     margin: 15px 0 5px 0;
     color: #ffd700;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.descricao {
+    font-size: 0.9rem;
+    font-style: italic;
+    padding: 0 20px;
+    text-align: center;
+    color: #cccccc;
+    line-height: 1.4;
+}
+
+.descricao {
+    font-size: 0.9rem;
+    font-style: italic;
+    padding: 0 20px;
+    text-align: center;
+    color: #cccccc;
+    line-height: 1.4;
+}
+.habilidades ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
 }
