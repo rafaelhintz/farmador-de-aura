@@ -13,3 +13,14 @@ body {
 .container {
     perspective: 1000px; /* Efeito de profundidade */
 }
+.card {
+    width: 350px;
+    background: rgba(20, 20, 20, 0.85); /* Fundo escuro semi-transparente */
+    border: 8px solid #d4af37; /* Borda dourada estilo Trunfo */
+    border-radius: 15px;
+    overflow: hidden;
+    color: white;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 20px rgba(212, 175, 55, 0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    backdrop-filter: blur(10px); /* Efeito de vidro */
+}
