@@ -1,5 +1,13 @@
-body{
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    /* Mantendo o seu fundo original */
+    background: url(images/images.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+}
 
-background: url(images/images.jpg) no-repeat center/cover;
-
-} 
